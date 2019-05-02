@@ -1,0 +1,16 @@
+name: firstbeisso75
+credentials:
+  wml:
+    instance_id: 0f48cdaf-9b72-4582-822c-5a6d80a77fde
+    username: 82fe476f-c84d-4f85-a0a7-ccd36c0454f9
+    password: f0848df5-adb3-4b5e-9868-5a2d92a986b5
+    url: 'https://eu-gb.ml.cloud.ibm.com'
+  cos:
+    access_key_id: a515123d28ac44c2b900dd7afe6c0097
+    secret_access_key: 89f60f3bda46a12535be2dfedcd877392711a34434b63a6a
+    region: us-geo
+buckets:
+  training: firstbeisso75
+trainingParams:
+  gpu: k80
+  steps: '500'
